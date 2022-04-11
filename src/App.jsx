@@ -3,9 +3,9 @@ import './App.css';
 import { useState } from 'react';
 
 function App() {
-  const [add,Setadd]=useState(0)
-  const [addfor,Setaddfor]=useState(0);
-  const [addsi,Setaddsix]=useState(0);
+  const [add,Setadd]=useState(76)
+  const [addfor,Setaddfor]=useState(2);
+  const [addsi,Setaddsix]=useState(50);
 
 
   const [addwiki,Setwiki]=useState(0);
