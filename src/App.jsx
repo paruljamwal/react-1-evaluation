@@ -10,7 +10,7 @@ function App() {
 
   const [addwiki,Setwiki]=useState(2);
 
-  const [addballi,Setball]=useState(8.2)
+  const [addballi,Setball]=useState(50)
 const addrun=()=>{
 Setadd(add+1);
 
