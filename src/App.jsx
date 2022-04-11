@@ -41,7 +41,7 @@ const addball=()=>{
           Score:{[add+addfor+addsi]}
           <h1 className="scoreCount">
             {
-              <h1 className='{(add+addfor+addsi)>100 ? "India Won" : "Fail"}'>{add+addfor+addsi}</h1>
+              <h1 className='{(add+addfor+addsi)>100 ? "India Won" : ""}'>{add+addfor+addsi}</h1>
 
               // show "score" here
             }
@@ -92,7 +92,7 @@ const addball=()=>{
         <button onClick={addball}>Add 1</button>
       </div>
 
-      <h1 className='{{add+addfor+addsi}>100 ? "India Won" : ""}'>India won </h1>
+      <h1 className='{{addball}>100 ? "India Won" : ""}'>India won </h1>
       {/* If score reaches greater than 100, show text "India Won" without quotes in h1 tag with class name 'status' */}
     </div>
 
