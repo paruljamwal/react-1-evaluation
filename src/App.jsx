@@ -4,8 +4,8 @@ import { useState } from 'react';
 
 function App() {
   const [add,Setadd]=useState(0)
-  const [addfor,Setaddfor]=useState(4);
-  const [addsi,Setaddsix]=useState(6);
+  const [addfor,Setaddfor]=useState(0);
+  const [addsi,Setaddsix]=useState(0);
 
 
   const [addwiki,Setwiki]=useState(0);
@@ -41,7 +41,7 @@ const addball=()=>{
           Score:{[add+addfor+addsi]}
           <h1 className="scoreCount">
             {
-              <h1 className='{(add+addfor+addsi)>100 ? "India Won" : "Fail"}'>Score{add+addfor+addsi}</h1>
+              <h1 className='{(add+addfor+addsi)>100 ? "India Won" : "Fail"}'>{add+addfor+addsi}</h1>
 
               // show "score" here
             }
