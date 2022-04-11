@@ -4,11 +4,11 @@ import { useState } from 'react';
 
 function App() {
   const [add,Setadd]=useState(76)
-  const [addfor,Setaddfor]=useState(2);
-  const [addsi,Setaddsix]=useState(50);
+  const [addfor,Setaddfor]=useState(0);
+  const [addsi,Setaddsix]=useState(0);
 
 
-  const [addwiki,Setwiki]=useState(0);
+  const [addwiki,Setwiki]=useState(2);
 
   const [addballi,Setball]=useState(8.2)
 const addrun=()=>{
